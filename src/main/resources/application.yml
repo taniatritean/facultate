@@ -18,15 +18,16 @@ spring:
     serialization:
       write_dates_as_timestamps: false
 
-spring.datasource.url: jdbc:postgresql://54.93.65.5:5432/ionel7
+spring.datasource.url: jdbc:postgresql://54.93.65.5:5432/tania
 spring.datasource.username: fasttrackit_dev
 spring.datasource.password: fasttrackit_dev
+
 
 # The SQL dialect makes Hibernate generate better SQL for the chosen database
 spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
 
 # Hibernate ddl auto (create, create-drop, validate, update)
-spring.jpa.hibernate.ddl-auto: create
+spring.jpa.hibernate.ddl-auto: update
 
 params:
   page:
